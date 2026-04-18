@@ -1,0 +1,14 @@
+name: tech-stock-analytics
+schedule: "0 18 * * 1-5"
+start_date: "2015-01-01"
+catchup: false
+
+workers: 2
+
+default_parameters:
+  project_id: tech-stock-analytics
+  gcs_bucket_raw: tech-stocks-raw
+  gcs_bucket_staged: tech-stocks-staged
+  bq_dataset_raw: raw_stocks
+  bq_dataset_staging: staging_stocks
+  bq_dataset_marts: marts_stocks
