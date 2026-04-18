@@ -212,7 +212,7 @@ terraform apply
 
 ### Full Pipeline Run (via Bruin)
 
-The pipeline is scheduled to run every weekday at 18:00 UTC (`0 18 * * 1-5`). To trigger it manually:
+To trigger the pipeline :
 
 ```bash
 # Validate all assets
